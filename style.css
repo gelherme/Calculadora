@@ -1,9 +1,7 @@
-*{
-	margin: 0;
-	padding: 0;
-	
-}
+body{
+	background-image: linear-gradient(to right, rgb(16, 211, 114) , rgb(192, 231, 205));
 
+}
 .container{
 	width: 250px;
 	height: 350px;
