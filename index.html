@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+	<div class="calculadora">
+		<div class="container">
+			<div id="tela" class="tela"></div><!--tela-->
+				<button id="liga" class="botao-liga-desliga" onclick="apagar()">C</button>
+				<button id="back" class="botao-liga-desliga back" onclick="back()"><</button>
+				<div class="teclado">				
+				<div class="botao7 botao-single" onclick="insert('7')">7</div>
+				<div class="botao8 botao-single" onclick="insert('8')">8</div>
+				<div class="botao9 botao-single" onclick="insert('9')">9</div>
+				<div class="botao/ botao-single" onclick="insert('/')">/</div>
+				<div class="botao4 botao-single" onclick="insert('4')">4</div>
+				<div class="botao5 botao-single" onclick="insert('5')">5</div>
+				<div class="botao6 botao-single" onclick="insert('6')">6</div>
+				<div class="botaox botao-single" onclick="insert('*')">X</div>
+				<div class="botao1 botao-single" onclick="insert('1')">1</div>
+				<div class="botao2 botao-single" onclick="insert('2')">2</div>
+				<div class="botao3 botao-single" onclick="insert('3')">3</div>
+				<div class="botao- botao-single" onclick="insert('-')">-</div>
+				<div class="botao0 botao-single" onclick="insert('0')">0</div>
+				<div class="botao. botao-single" onclick="insert('.')">.</div>
+				<div class="botao= botao-single" onclick="calcular()">=</div>
+				<div class="botao-soma botao-single" onclick="insert('+')">+</div>
+			</div><!--teclado-->
+		</div><!--container-->
+	</div><!--calculadora-->
+
+
+<script src="functions.js" type="text/javascript"></script>
+</body>
+</html>
